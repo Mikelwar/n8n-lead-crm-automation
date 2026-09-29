@@ -1,0 +1,23 @@
+# Live n8n instance data (database, encryption key, logs) — never commit
+n8n-data/
+.n8n/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Local test output
+test-output/
+*.log
