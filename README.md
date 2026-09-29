@@ -5,7 +5,7 @@ An n8n workflow that takes incoming sales leads, cleans them up, scores and clas
 > **Demo execution using mock AI responses. Production path is ready for external AI and CRM integrations.**
 > The demo runs fully offline on 7 fictional leads: no AI API calls, no CRM calls, no cost.
 
-![Workflow overview](docs/screenshots/01-workflow-overview.png)
+![Workflow overview](docs/screenshots/01-workflow-overview.jpg)
 <sub>Screenshots are listed in [docs/SCREENSHOTS.md](docs/SCREENSHOTS.md).</sub>
 
 ---
@@ -209,3 +209,14 @@ n8n 2.37.10 (Code, Set, IF, Switch, Merge, Webhook, HTTP Request, Data Table, Go
 ## Disclaimer
 
 Portfolio demo. The demo output comes from a deterministic mock analyzer, not a language model; the production AI path is implemented and tested for failure handling but ships disabled. All sample data is fictional.
+
+## Screenshots
+
+### Workflow Overview
+![Workflow Overview](docs/screenshots/01-workflow-overview.jpg)
+
+### Demo Execution
+![Demo Execution](docs/screenshots/02-demo-execution.jpg)
+
+### Output Detail
+![Output Detail](docs/screenshots/03-output-detail.jpg)
